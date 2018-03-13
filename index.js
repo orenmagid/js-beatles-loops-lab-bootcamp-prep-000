@@ -7,10 +7,13 @@ return array
 }
 
 function johnLennonFacts(facts){
-  while (facts[i]) {
-  facts[i] += "!!!"
+  var array = []
+  var count = 0
+  while (count < facts.length) {
+  array.push(facts[count] + "!!!")
+  count++
   }
-return facts
+return array
 }
 
 function iLoveTheBeatles(number) {
